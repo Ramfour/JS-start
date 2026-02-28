@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+
+ul {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.096);
+    background-size: cover;
+    border-radius: 10px; 
+    overflow: hidden; 
+    padding: 10px 0px;
+    box-shadow: 8px 8px 5px #444;
+}
+
+ul li{
+    margin: 20px;  
+    display: inline;
+    padding: 10px 10px;
+    background-color: rgba(227, 231, 120, 0.459);
+    border: 2px solid rgba(0, 0, 0, 0.459);
+    border-radius: 5%;
+    
+}
+
+ul li:hover {
+    background-color: rgba(64, 65, 31, 0.459);
+    box-shadow: 4px 4px 5px #444;
+    
+}
+
+ul li a {
+   text-decoration: none;
+   color: rgb(81, 47, 5);
+}
+
+ul :nth-child(even) {
+    background-color: rgba(177, 180, 92, 0.459);
+}
