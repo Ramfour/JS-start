@@ -10,8 +10,7 @@ input.addEventListener('input', updateInput);
 const button =  document.querySelector('button');
 button.addEventListener('click', ()=>{
        console.log('Текст поля ввода: '+input.value);
-       input.value = '';
-       updateInput(input.value);
+       duplicateField.textContent =  input.value = '';
 });
 
 
