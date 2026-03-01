@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: antiquewhite;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+form{
+    padding: 20px;
+    color: rgb(85, 73, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover {
+    color: rgb(77, 77, 77);
+    text-shadow: 4px 4px 4px;
+}
+
+button, input {
+    height: 45px;
+    width: 300px;
+    border-radius: 3%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+input {
+    height: 40px;
+}
+
+p{
+    text-align: center;
+    
+}
+
+#duplicateField{
+    background-color: rgba(234, 218, 195, 0.298);
+
+}
